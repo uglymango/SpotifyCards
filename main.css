@@ -1,0 +1,272 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#8fb1bd;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 20px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.songnumberone{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    border-radius: 2%;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    transition: 0.4s all linear;
+   
+}
+.songnumberone:hover{
+    box-shadow: 2px -4px 12px rgb(41, 40, 40);
+    transform: scale(1.08);
+}
+
+.songnumbertwo{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    border-radius: 2%;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    transition: 0.4s all linear;
+
+}
+.songnumbertwo:hover{
+    box-shadow: 2px -4px 12px rgb(41, 40, 40);
+    transform: scale(1.08);
+}
+
+.songnumberthree{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    border-radius: 2%;
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    transition: 0.4s all linear;
+   
+}
+.songnumberthree:hover{
+    box-shadow: 2px -4px 12px rgb(41, 40, 40);
+    transform: scale(1.08);
+}
+
+.songnumberfour{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    border-radius: 2%;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    transition: 0.4s all linear;
+   
+}
+.songnumberfour:hover{
+    box-shadow: 2px -4px 12px rgb(41, 40, 40);
+    transform: scale(1.08);
+}
+
+.songnumberfive{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    border-radius: 2%;
+    position: absolute;
+    top: 28%;
+    left: 75%;
+    transition: 0.4s all linear;
+   
+}
+.songnumberfive:hover{
+    box-shadow: 2px -4px 12px rgb(41, 40, 40);
+    transform: scale(1.08);
+}
+
+.songcover{
+    width: 155px;
+    height: 160px;
+    border-radius: 4px;
+    position: absolute;
+    transform: translate(28px, 15px);    
+}
+
+#songtitleone{
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-37px, 22px);
+}
+
+#singernameone{
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-38px, 40px);
+}
+
+#songtitletwo{
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-30px, 22px);
+}
+
+#singernametwo{
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-36px, 41px);
+}
+
+#songtitlethree{
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-77px, 22px);
+}
+
+#singernamethree{
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-30px, 41px);
+}
+
+#songtitlefour{
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-45px, 22px);
+}
+
+#singernamefour{
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-45px, 41px);
+}
+
+#songtitlefive{
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-65px, 22px);
+}
+
+#singernamefive{
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-38px, 40px);
+}
+
+#amountofstreams{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    top: 80%;
+    left: 50%;
+    transform: translate(-35px, -37px)
+}
+#thedateofrelease{
+    position: absolute;
+    font-size: 11px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    top: 90%;
+    left:50%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-68px, -50px);
+}
+.spotifylisten{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    border: none;
+    border-radius: 4px;
+    top:83%;
+    left:15%;
+    color: white;
+    background-color:#1DB954
+
+}
+.spotifylisten:hover{
+    background-color: #1DB954;
+}
+.fa-spotify{
+    color: white;
+    transform: translate(-15px);
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
